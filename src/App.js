@@ -5,7 +5,6 @@ import Filter from "./components/Filter"
 import { apiUrl, filterData  } from "./data";
 import { useState,useEffect } from "react";
 import Spinner from "./components/Spinner";
-import {toast} from "react-toastify";
 
 
 const App = () => { 
