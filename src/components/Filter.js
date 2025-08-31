@@ -15,10 +15,10 @@ const Filter = (props) => {
         filterData.map( (data) => (
             <button
             className={`text-lg px-2 py-1 rounded-md font-medium 
-            text-white bg-black hover:bg-opacity-50 border-2 transition-all duration-300
+             bg-black hover:border-white hover:scale-105 
             ${category === data.title ? 
-            " bg-white text-black" :
-            "bg-opacity-40 border-transparent"}
+            "text-black bg-white" :
+            "text-white bg-black"}
             `}
              key={data.id}
              onClick ={() => filterHandler(data.title)}
